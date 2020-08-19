@@ -15,4 +15,11 @@
 - Embarked - Port of Embarkation (C=Cherbourg, Q=Queenstown, S=Southampton)
 
 -------------------------------------------------------------------------------------------------
+## Variable Analysis ##
+-------------------------------------------------------------------------------------------------
+### Pclass ###
+High percentage of Third Class passengers perished, while First Class was the only category to
+have a higher percentage of survivors compared to non-survivors.
 
+#### Number of Survived by Pclass ####
+![]()
