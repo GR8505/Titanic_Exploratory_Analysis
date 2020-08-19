@@ -22,4 +22,4 @@ High percentage of Third Class passengers perished, while First Class was the on
 have a higher percentage of survivors compared to non-survivors.
 
 #### Number of Survived by Pclass ####
-![]()
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg)
