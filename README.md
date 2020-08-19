@@ -23,3 +23,10 @@ have a higher percentage of survivors compared to non-survivors.
 
 #### Number of Survived by Pclass ####
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg)
+
+
+### Sex ###
+It appears that males had a lower chance of survival compared to females.
+
+#### Number of Survived by Gender ####
+![]()
