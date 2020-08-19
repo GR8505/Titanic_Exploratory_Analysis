@@ -43,5 +43,11 @@ Admittedly,this variable has missing data but I moved to address this problem fo
 entire dataset at a later stage.
 
 #### Age Distribution: 'Survived' vs 'Not Survived'
-![]()
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg)
+
+
+### SibSp and Parch ###
+From our initial analysis, it seems that being a 'loner' did not help one's chances of
+survival.  Nevertheless, I did observe that a large number of 'loners' also managed to
+survive the sinking of the Titanic.
 
