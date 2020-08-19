@@ -2,7 +2,7 @@
 -------------------------------------------------------------------------------------------------
 ## List of Variables ##
 -------------------------------------------------------------------------------------------------
-#-# Pclass - Passenger Class (1=First Class, 2=Second Class, 3=Third Class)
+- Pclass - Passenger Class (1=First Class, 2=Second Class, 3=Third Class)
 - Survival - Survival (0=Passenger did not survive, 1=Passenger survived)
 - Name - Name of passenger
 - Sex - Passenger's gender (male or female)
