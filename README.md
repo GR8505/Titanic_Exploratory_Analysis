@@ -21,14 +21,14 @@
 High percentage of Third Class passengers perished, while First Class was the only category to
 have a higher percentage of survivors compared to non-survivors.
 
-#### Number of Survived by Pclass ####
+**Number of Survived by Pclass
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg)
 
 
 ### Sex ###
 It appears that males had a lower chance of survival compared to females.
 
-#### Number of Survived by Gender ####
+**Number of Survived by Gender
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg)
 
 
@@ -42,7 +42,7 @@ Survived' group.  However, I must emphasize that it is a minor difference.
 Admittedly,this variable has missing data but I moved to address this problem for the 
 entire dataset at a later stage.
 
-#### Age Distribution: 'Survived' vs 'Not Survived'
+**Age Distribution: 'Survived' vs 'Not Survived'
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg)
 
 
