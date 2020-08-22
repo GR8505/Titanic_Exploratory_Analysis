@@ -75,7 +75,12 @@ significant relationship between SibSp and Parch.
 
 ----------------------------------------------------------------------------------------------
 
+### Fare ###
+No clear insight into whether Fare is related to survival but the average Fare for those who
+survived is 119 percent higher (more than double) than the average Fare for non-survivors.
 
+---------------------------------------------------------------------------------------------
+![]()
 
 
 
