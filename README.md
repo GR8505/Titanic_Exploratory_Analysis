@@ -21,16 +21,20 @@
 High percentage of Third Class passengers perished, while First Class was the only category to
 have a higher percentage of survivors compared to non-survivors.
 
+------------------------------------------------------------------------------------------------
 **Number of Survived by Pclass**
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg)
 
+------------------------------------------------------------------------------------------------
 
 ### Sex ###
 It appears that males had a lower chance of survival compared to females.
 
+------------------------------------------------------------------------------------------------
 **Number of Survived by Gender**
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg)
 
+------------------------------------------------------------------------------------------------
 
 ### Age ###
 The age distributions for both 'Survived' and 'Not Survived' are similar but it seems that
@@ -42,12 +46,26 @@ Survived' group.  However, I must emphasize that it is a minor difference.
 Admittedly,this variable has missing data but I moved to address this problem for the 
 entire dataset at a later stage.
 
+-----------------------------------------------------------------------------------------------
 **Age Distribution: 'Survived' vs 'Not Survived'**
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg)
 
+-----------------------------------------------------------------------------------------------
 
 ### SibSp and Parch ###
 From our initial analysis, it seems that being a 'loner' did not help one's chances of
 survival.  Nevertheless, I did observe that a large number of 'loners' also managed to
 survive the sinking of the Titanic.
+
+A high percentage of passengers with both no siblings and parents or children (SibSp = 0 and
+Parch = 0) did not survive. For pesrons with 1 sibling or spouse, there was a slightly higher
+chance of survival.  Furthermore, anyone with a Parch value of 1 or 2 had a higher probability
+for surviving.
+
+Nonetheless, I must emphasize that anybody with more than 4 siblings (SibSp > 4), perished and
+any passenger with 3 or more parent/child affilliations (Parch >= 3), had a lower probability 
+for survival.
+
+----------------------------------------------------------------------------------------------
+![]()
 
