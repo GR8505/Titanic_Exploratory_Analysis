@@ -67,5 +67,15 @@ any passenger with 3 or more parent/child affilliations (Parch >= 3), had a lowe
 for survival.
 
 ----------------------------------------------------------------------------------------------
-![]()
+**SibSp and Parch Survival Analysis**
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg)
+
+The correlation between these two variables is < 0.5, sowe can infer that there is no 
+significant relationship between SibSp and Parch.
+
+----------------------------------------------------------------------------------------------
+
+
+
+
 
