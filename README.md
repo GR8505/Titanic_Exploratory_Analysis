@@ -103,6 +103,20 @@ passengers who boarded in Southampton registered the highest number of deaths.
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot13.jpeg)
 
 ----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+## New Variables ##
+----------------------------------------------------------------------------------------------
+New variables were created for further exploratory analysis.  This is the list of additional
+variables:
+
+- Title - (Master, Miss, Mr, Mrs and Special Title)
+- Fsize - (Family size)
+- FsizeC - (Refers to family size category; there are three categories, large, small and loner)
+- Deck - (Deck Number)
+- AgeC - (Age category)
+- Child - (Whether passenger is a child or not)
+- Mother - (Whether passenger is a mother or not)
+----------------------------------------------------------------------------------------------
 
 
 
