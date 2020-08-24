@@ -185,12 +185,22 @@ identified here.
 ## Child and Mother ##
 These new variables show that being a child does have a major impact on survival. 
 
-![]()
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot24.jpeg)
 
---------------------------------------------------------------------------------------------
 Passengers who were mothers had a slightly better chance of survival.
 
+--------------------------------------------------------------------------------------------
+## Correlation ##
+As expected, there is a strong correlation between Age and AgeC. Fsize is also strongly
+correlated with both SibSp and Parch, as Fsize is a function of both these variables.
+
 ![]()
 
---------------------------------------------------------------------------------------------
+I have noticed that there are negative correlations between Deck and Pclass.  Furthermore,
+there is an inverse relationship between Fare and Pclass.  Obviously, this indicates that
+passengers who paid higher fares were more likely to ride first class, which is what I
+expected.
 
+Out of all the variables, 'Sex' has the strongest correlation with 'Survived'.
+
+-------------------------------------------------------------------------------------------
