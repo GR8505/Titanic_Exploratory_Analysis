@@ -118,6 +118,12 @@ variables:
 - Mother - (Whether passenger is a mother or not)
 ----------------------------------------------------------------------------------------------
 
+### Title ###
+This new variable provides some meaningful insights.  We can infer that passengers with the 
+title 'Mr.' had a very low chance of survival.
 
+**Title by Survival**
+
+![]()
 
 
