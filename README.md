@@ -145,10 +145,16 @@ For FsizeC, Loners are passengers with Fsize = 1, Small represents passengers wi
 between 1 to 4 and Large are those with Fsize >= 5.
 
 ---------------------------------------------------------------------------------------------
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot17.jpeg)
+
+---------------------------------------------------------------------------------------------
+Loners definitely had a lower probability of survival.  Passengers in small families had the 
+best chance of survival out of all these family size categories.
+
+---------------------------------------------------------------------------------------------
 ![]()
 
 ---------------------------------------------------------------------------------------------
-
 
 
 
