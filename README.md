@@ -23,6 +23,7 @@ have a higher percentage of survivors compared to non-survivors.
 
 ------------------------------------------------------------------------------------------------
 **Number of Survived by Pclass**
+
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg)
 
 ------------------------------------------------------------------------------------------------
@@ -32,6 +33,7 @@ It appears that males had a lower chance of survival compared to females.
 
 ------------------------------------------------------------------------------------------------
 **Number of Survived by Gender**
+
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg)
 
 ------------------------------------------------------------------------------------------------
@@ -48,6 +50,7 @@ entire dataset at a later stage.
 
 -----------------------------------------------------------------------------------------------
 **Age Distribution: 'Survived' vs 'Not Survived'**
+
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg)
 
 -----------------------------------------------------------------------------------------------
@@ -68,6 +71,7 @@ for survival.
 
 ----------------------------------------------------------------------------------------------
 **SibSp and Parch Survival Analysis**
+
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg)
 
 The correlation between these two variables is < 0.5, sowe can infer that there is no 
@@ -88,6 +92,15 @@ significant negative correlation but not a strong one.
 
 ----------------------------------------------------------------------------------------------
 
+### Embarked ###
+Cherbourg was the only port that had a higher proportion of 'Survived' compared to 'Not 
+Survived'.  Queenstown recorded a higher number of deaths compared to number of survived, while
+passengers who boarded in Southampton registered the highest number of deaths.
+
+----------------------------------------------------------------------------------------------
+**Survived by Embarked**
+
+![]()
 
 
 
