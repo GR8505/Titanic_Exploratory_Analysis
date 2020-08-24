@@ -175,15 +175,22 @@ Ages were broken down into the following categories:
 6) Category 5: 45<Age<=65
 7) Category 6: Age>65
 ---------------------------------------------------------------------------------------------
-![]()
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot22.jpeg)
 
 This provides little insight. Although a high number of passengers perished in the age 
 categories 2 and 3, a high number of them also survived.  No clear pattern or relationship
 identified here.
 
 ---------------------------------------------------------------------------------------------
+## Child and Mother ##
+These new variables show that being a child does have a major impact on survival. 
 
+![]()
 
+--------------------------------------------------------------------------------------------
+Passengers who were mothers had a slightly better chance of survival.
 
+![]()
 
+--------------------------------------------------------------------------------------------
 
