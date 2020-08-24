@@ -162,10 +162,26 @@ this variable would add value to our predictive model, as there is a large perce
 passengers who are assigned to unknown decks.
 
 ---------------------------------------------------------------------------------------------
-![]()
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot.jpeg)
 
 ---------------------------------------------------------------------------------------------
+## AgeC ##
+Ages were broken down into the following categories:
+1) Category 0: Age<=11
+2) Category 1: 11<Age<=18
+3) Category 2: 18<Age<=25
+4) Category 3: 25<Age<=35
+5) Category 4: 35<Age<=45
+6) Category 5: 45<Age<=65
+7) Category 6: Age>65
+---------------------------------------------------------------------------------------------
+![]()
 
+This provides little insight. Although a high number of passengers perished in the age 
+categories 2 and 3, a high number of them also survived.  No clear pattern or relationship
+identified here.
+
+---------------------------------------------------------------------------------------------
 
 
 
