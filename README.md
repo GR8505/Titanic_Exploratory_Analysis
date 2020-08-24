@@ -152,11 +152,19 @@ Loners definitely had a lower probability of survival.  Passengers in small fami
 best chance of survival out of all these family size categories.
 
 ---------------------------------------------------------------------------------------------
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot23.jpeg)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+## Deck ##
+For this variable, unknown decks are labelled as 'U'. On closer analysis, I am not sure if
+this variable would add value to our predictive model, as there is a large percentage of
+passengers who are assigned to unknown decks.
+
+---------------------------------------------------------------------------------------------
 ![]()
 
 ---------------------------------------------------------------------------------------------
-
-
 
 
 
