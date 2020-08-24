@@ -194,7 +194,7 @@ Passengers who were mothers had a slightly better chance of survival.
 As expected, there is a strong correlation between Age and AgeC. Fsize is also strongly
 correlated with both SibSp and Parch, as Fsize is a function of both these variables.
 
-![]()
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot25.jpeg)
 
 I have noticed that there are negative correlations between Deck and Pclass.  Furthermore,
 there is an inverse relationship between Fare and Pclass.  Obviously, this indicates that
