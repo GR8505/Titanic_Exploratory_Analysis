@@ -124,6 +124,18 @@ title 'Mr.' had a very low chance of survival.
 
 **Title by Survival**
 
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot14.jpeg)
+
+
+On the contrary, persons with the titles 'Miss', 'Mrs.' and 'Master' probably stood a better
+chance at surviving.
+
 ![]()
+
+
+
+
+
+
 
 
