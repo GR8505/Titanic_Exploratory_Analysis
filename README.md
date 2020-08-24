@@ -100,7 +100,9 @@ passengers who boarded in Southampton registered the highest number of deaths.
 ----------------------------------------------------------------------------------------------
 **Survived by Embarked**
 
-![]()
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot13.jpeg)
+
+----------------------------------------------------------------------------------------------
 
 
 
