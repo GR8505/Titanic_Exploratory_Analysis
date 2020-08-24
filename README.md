@@ -83,13 +83,17 @@ significant relationship between SibSp and Parch.
 No clear insight into whether Fare is related to survival but the average Fare for those who
 survived is 119 percent higher (more than double) than the average Fare for non-survivors.
 
+---------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot11.png)
 
+---------------------------------------------------------------------------------------------
 Surprisingly, there is no strong correlation between Fare and Pclass.  At -0.6, this is a 
 significant negative correlation but not a strong one.
 
+----------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot12.png)
 
+----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 
 ### Embarked ###
@@ -122,15 +126,29 @@ variables:
 This new variable provides some meaningful insights.  We can infer that passengers with the 
 title 'Mr.' had a very low chance of survival.
 
-**Title by Survival**
-
+---------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot14.jpeg)
 
+---------------------------------------------------------------------------------------------
 
 On the contrary, persons with the titles 'Miss', 'Mrs.' and 'Master' probably stood a better
 chance at surviving.
 
+---------------------------------------------------------------------------------------------
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot16.jpeg)
+
+---------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+## Fsize and FsizeC ##
+Fsize = SibSp + Parch + 1
+For FsizeC, Loners are passengers with Fsize = 1, Small represents passengers with Fsize 
+between 1 to 4 and Large are those with Fsize >= 5.
+
+---------------------------------------------------------------------------------------------
 ![]()
+
+---------------------------------------------------------------------------------------------
+
 
 
 
