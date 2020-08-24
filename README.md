@@ -84,7 +84,7 @@ survived is 119 percent higher (more than double) than the average Fare for non-
 Surprisingly, there is no strong correlation between Fare and Pclass.  At -0.6, this is a 
 significant negative correlation but not a strong one.
 
-![]()
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot12.png)
 
 ----------------------------------------------------------------------------------------------
 
