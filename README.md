@@ -240,4 +240,20 @@ Missing ages were replaced using the Multivariate Imputation by Chained Equation
 method.  The age distribution for the MICE output was similar to that of the original ages
 in the dataset.
 
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot20.jpeg)
+
+------------------------------------------------------------------------------------------
+## Modeling and Analysis ##
+------------------------------------------------------------------------------------------
+Based on the key insights from our EDA process, I experimented with different models before
+settling on the best option.  I went with a logistic regression model:
+
+      *Survived~Pclass+Age+Fare+Title+FsizeC
+
+I initially started with the following model and then performed backward selection to 
+arrive at the most parsimonious model:
+
+      *Survived~Pclass+Sex+Age+SibSp+Parch+Fare+Embarked+Title+FsizeC+Child+Mother
+      
 ![]()
+      
