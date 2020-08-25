@@ -214,4 +214,22 @@ and 'Fare' also have some missing values.
 Looking at PassengerIds 62 and 830, they were both First Class passengers and paid a fare
 of 80 pounds.
 
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot18.jpeg)
+
+In constructing a boxplot that illustrates the median Fares for all passenger classes and 
+all points of embarkation, the median Fare for a First Class passenger who boarded at
+Cherbourg was 80 pounds.
+
+Therefore, I assigned Cherbourg (C) to the missing Embarked values for both passengers 62
+and 830.
+
+------------------------------------------------------------------------------------------
+### Fare ###
+Fare is missing for passengerId 1044.  From the dataset, this person was a Third Class 
+passenger who boarded the Titanic at Southampton.  I assigned the missing Fare value for 
+the median Fare of all Third Class passengers who boarded at Southampton, which was 8.05
+pound Sterling.
+
+**Median Fare - Third Class Passenger Southampton**
+
 ![]()
