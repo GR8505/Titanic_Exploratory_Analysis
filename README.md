@@ -255,5 +255,14 @@ arrive at the most parsimonious model:
 
       *Survived~Pclass+Sex+Age+SibSp+Parch+Fare+Embarked+Title+FsizeC+Child+Mother
       
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot1.png)
+
+### AIC = 751.55 ###
+### Removed cariable Sex, as it had the highest p-value which indicates low level of 
+### significance in the model.
+### Title, FsizeC and Pclass are all significant.
+
+-----------------------------------------------------------------------------------------
+
 ![]()
       
