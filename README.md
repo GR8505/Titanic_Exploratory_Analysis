@@ -232,4 +232,12 @@ pound Sterling.
 
 **Median Fare - Third Class Passenger Southampton**
 
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot19.jpeg)
+
+------------------------------------------------------------------------------------------
+### Age ###
+Missing ages were replaced using the Multivariate Imputation by Chained Equations (MICE)
+method.  The age distribution for the MICE output was similar to that of the original ages
+in the dataset.
+
 ![]()
