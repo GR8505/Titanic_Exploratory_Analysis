@@ -204,3 +204,14 @@ expected.
 Out of all the variables, 'Sex' has the strongest correlation with 'Survived'.
 
 -------------------------------------------------------------------------------------------
+## Missingness ##
+-------------------------------------------------------------------------------------------
+I dealt with missing values for the variable 'Deck' but the variables, 'Age', 'Embarked' 
+and 'Fare' also have some missing values.
+
+-------------------------------------------------------------------------------------------
+### Embarked ###
+Looking at PassengerIds 62 and 830, they were both First Class passengers and paid a fare
+of 80 pounds.
+
+![]()
