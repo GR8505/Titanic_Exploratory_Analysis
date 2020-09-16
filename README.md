@@ -279,3 +279,10 @@ arrive at the most parsimonious model:
 
 ------------------------------------------------------------------------------------------
 
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot4.png)
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot5.png)
+
+### AIC reduced to 751.35, which is lower than the 751.55 in the first model
+### Removed variable Parch
+
+-----------------------------------------------------------------------------------------
