@@ -271,3 +271,11 @@ arrive at the most parsimonious model:
 
 ------------------------------------------------------------------------------------------
       
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot3.png)
+
+### AIC reduced to 753.27
+### p-value for Fare reduced
+### Removed variable 'Mother' and retested model
+
+------------------------------------------------------------------------------------------
+
