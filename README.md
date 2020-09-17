@@ -1,5 +1,21 @@
 # Titanic Exploratory Data Analysis (EDA)
 -------------------------------------------------------------------------------------------------
+## Executive Overview ##
+-------------------------------------------------------------------------------------------------
+The aim of this machine learning project was to develop a model to predict the number of people
+who survived the sinking of the Titanic.  At the end of my EDA and modelling process, I developed
+a logistic regression model that yielded an accuracy level of 79.9 percent.  In the future, I 
+will attempt to improve this accuracy level, probably with another classification method like
+KNN. 
+
+However, it was surprising to note that gender was not included in the final model. I believe that
+the creation of the variable title was more of an accurate predictor for survival than gender and
+thus the reason why gender was no longer significant to the model.
+
+My final model was Survived ~ Pclass + Age + Fare + Title + FsizeC.  
+
+-------------------------------------------------------------------------------------------------
+
 ## List of Variables ##
 -------------------------------------------------------------------------------------------------
 - Pclass - Passenger Class (1=First Class, 2=Second Class, 3=Third Class)
