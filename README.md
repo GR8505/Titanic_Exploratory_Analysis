@@ -21,22 +21,22 @@
 High percentage of Third Class passengers perished, while First Class was the only category to
 have a higher percentage of survivors compared to non-survivors.
 
-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 **Number of Survived by Pclass**
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg)
 
-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ### Sex ###
 It appears that males had a lower chance of survival compared to females.
 
-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 **Number of Survived by Gender**
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg)
 
-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ### Age ###
 The age distributions for both 'Survived' and 'Not Survived' are similar but it seems that
@@ -48,12 +48,12 @@ Survived' group.  However, I must emphasize that it is a minor difference.
 Admittedly,this variable has missing data but I moved to address this problem for the 
 entire dataset at a later stage.
 
------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 **Age Distribution: 'Survived' vs 'Not Survived'**
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg)
 
------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ### SibSp and Parch ###
 From our initial analysis, it seems that being a 'loner' did not help one's chances of
@@ -69,7 +69,7 @@ Nonetheless, I must emphasize that anybody with more than 4 siblings (SibSp > 4)
 any passenger with 3 or more parent/child affilliations (Parch >= 3), had a lower probability 
 for survival.
 
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 **SibSp and Parch Survival Analysis**
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg)
@@ -77,39 +77,39 @@ for survival.
 The correlation between these two variables is < 0.5, sowe can infer that there is no 
 significant relationship between SibSp and Parch.
 
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ### Fare ###
 No clear insight into whether Fare is related to survival but the average Fare for those who
 survived is 119 percent higher (more than double) than the average Fare for non-survivors.
 
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot11.png)
 
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 Surprisingly, there is no strong correlation between Fare and Pclass.  At -0.6, this is a 
 significant negative correlation but not a strong one.
 
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot12.png)
 
-----------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ### Embarked ###
 Cherbourg was the only port that had a higher proportion of 'Survived' compared to 'Not 
 Survived'.  Queenstown recorded a higher number of deaths compared to number of survived, while
 passengers who boarded in Southampton registered the highest number of deaths.
 
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 **Survived by Embarked**
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot13.jpeg)
 
-----------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ## New Variables ##
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 New variables were created for further exploratory analysis.  This is the list of additional
 variables:
 
@@ -120,51 +120,51 @@ variables:
 - AgeC - (Age category)
 - Child - (Whether passenger is a child or not)
 - Mother - (Whether passenger is a mother or not)
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ### Title ###
 This new variable provides some meaningful insights.  We can infer that passengers with the 
 title 'Mr.' had a very low chance of survival.
 
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot14.jpeg)
 
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 On the contrary, persons with the titles 'Miss', 'Mrs.' and 'Master' probably stood a better
 chance at surviving.
 
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot16.jpeg)
 
----------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ## Fsize and FsizeC ##
 Fsize = SibSp + Parch + 1
 For FsizeC, Loners are passengers with Fsize = 1, Small represents passengers with Fsize 
 between 1 to 4 and Large are those with Fsize >= 5.
 
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot17.jpeg)
 
----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 Loners definitely had a lower probability of survival.  Passengers in small families had the 
 best chance of survival out of all these family size categories.
 
----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot23.jpeg)
 
----------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ## Deck ##
 For this variable, unknown decks are labelled as 'U'. On closer analysis, I am not sure if
 this variable would add value to our predictive model, as there is a large percentage of
 passengers who are assigned to unknown decks.
 
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot.jpeg)
 
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ## AgeC ##
 Ages were broken down into the following categories:
 1) Category 0: Age<=11
@@ -174,14 +174,14 @@ Ages were broken down into the following categories:
 5) Category 4: 35<Age<=45
 6) Category 5: 45<Age<=65
 7) Category 6: Age>65
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot22.jpeg)
 
 This provides little insight. Although a high number of passengers perished in the age 
 categories 2 and 3, a high number of them also survived.  No clear pattern or relationship
 identified here.
 
----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ## Child and Mother ##
 These new variables show that being a child does have a major impact on survival. 
 
@@ -189,7 +189,7 @@ These new variables show that being a child does have a major impact on survival
 
 Passengers who were mothers had a slightly better chance of survival.
 
---------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ## Correlation ##
 As expected, there is a strong correlation between Age and AgeC. Fsize is also strongly
 correlated with both SibSp and Parch, as Fsize is a function of both these variables.
@@ -203,13 +203,13 @@ expected.
 
 Out of all the variables, 'Sex' has the strongest correlation with 'Survived'.
 
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ## Missingness ##
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 I dealt with missing values for the variable 'Deck' but the variables, 'Age', 'Embarked' 
 and 'Fare' also have some missing values.
 
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ### Embarked ###
 Looking at PassengerIds 62 and 830, they were both First Class passengers and paid a fare
 of 80 pounds.
@@ -223,7 +223,7 @@ Cherbourg was 80 pounds.
 Therefore, I assigned Cherbourg (C) to the missing Embarked values for both passengers 62
 and 830.
 
-------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 ### Fare ###
 Fare is missing for passengerId 1044.  From the dataset, this person was a Third Class 
 passenger who boarded the Titanic at Southampton.  I assigned the missing Fare value for 
@@ -234,7 +234,7 @@ pound Sterling.
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot19.jpeg)
 
-------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 ### Age ###
 Missing ages were replaced using the Multivariate Imputation by Chained Equations (MICE)
 method.  The age distribution for the MICE output was similar to that of the original ages
@@ -242,9 +242,9 @@ in the dataset.
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot20.jpeg)
 
-------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 ## Modeling and Analysis ##
-------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 Based on the key insights from our EDA process, I experimented with different models before
 settling on the best option.  I went with a logistic regression model:
 
@@ -262,14 +262,14 @@ arrive at the most parsimonious model:
 ### significance in the model.
 ### Title, FsizeC and Pclass are all significant.
 
------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot2.png)
 
 ### AIC = 755.45
 ### p-value for Embarked is high.  Sought to remove this variable and test again.
 
-------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
       
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot3.png)
 
@@ -277,7 +277,7 @@ arrive at the most parsimonious model:
 ### p-value for Fare reduced
 ### Removed variable 'Mother' and retested model
 
-------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot4.png)
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot5.png)
@@ -285,7 +285,7 @@ arrive at the most parsimonious model:
 ### AIC reduced to 751.35, which is lower than the 751.55 in the first model
 ### Removed variable Parch
 
------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot6.png)
 
@@ -293,7 +293,7 @@ arrive at the most parsimonious model:
 ### It seemed that Pclass, Title and Fsize were the most significant variables in this model
 ### Aimed to remove variable SibSp due to its high p-value and retested model
 
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot7.png)
 
@@ -301,7 +301,7 @@ arrive at the most parsimonious model:
 ### p-value for Fare continued to fall
 ### At this point I chose to remove variable Child to see whether this will improve the model
 
---------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot8.png)
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot9.png)
@@ -311,14 +311,14 @@ arrive at the most parsimonious model:
 ### Experimenting with removal of Fare and Age
 ### Removed Fare first
 
---------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot10.png)
 
 ### AIC increased to 748.04
 ### Replaced Age with Fare and retested model
 
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot11.png)
 
@@ -326,5 +326,7 @@ arrive at the most parsimonious model:
 ### Most variables in the seventh call were significant
 ### Proceeded to use logistic regression model => Survived ~ Pclass + Age + Fare + Title + FsizeC
 ### This model produced an accuracy level of 79.9 percent (Refer to code in the following link:
-### 
+### https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Log_Regression.R)
+
+--------------------------------------------------------------------------------------------------
 
