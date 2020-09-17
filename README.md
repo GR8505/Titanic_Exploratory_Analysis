@@ -286,3 +286,38 @@ arrive at the most parsimonious model:
 ### Removed variable Parch
 
 -----------------------------------------------------------------------------------------
+
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot6.png)
+
+### AIC further reduced to 749.44
+### It seemed that Pclass, Title and Fsize were the most significant variables in this model
+### Aimed to remove variable SibSp due to its high p-value and retested model
+
+-------------------------------------------------------------------------------------------
+
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot7.png)
+
+### AIC = 747.84
+### p-value for Fare continued to fall
+### At this point I chose to remove variable Child to see whether this will improve the model
+
+--------------------------------------------------------------------------------------------
+
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot8.png)
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot9.png)
+
+### AIC = 746.58 (continues to decline)
+### p-value for Age has dropped as well
+### Experimenting with removal of Fare and Age
+### Removed Fare first
+
+--------------------------------------------------------------------------------------------
+
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot10.png)
+
+### AIC increased to 748.04
+### Replaced Age with Fare and retested model
+
+-------------------------------------------------------------------------------------------
+
+![]()
