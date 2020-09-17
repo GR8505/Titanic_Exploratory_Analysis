@@ -320,4 +320,11 @@ arrive at the most parsimonious model:
 
 -------------------------------------------------------------------------------------------
 
-![]()
+![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot11.png)
+
+### AIC = 747.39 which was still higher than the AIC for log_rm7 model
+### Most variables in the seventh call were significant
+### Proceeded to use logistic regression model => Survived ~ Pclass + Age + Fare + Title + FsizeC
+### This model produced an accuracy level of 79.9 percent (Refer to code in the following link:
+### 
+
