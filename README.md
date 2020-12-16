@@ -18,7 +18,7 @@ Survived ~ Pclass + Age + Fare + Title + FsizeC.
 
 -------------------------------------------------------------------------------------------------
 
-## List of Variables ##
+## List of Features ##
 -------------------------------------------------------------------------------------------------
 - Pclass - Passenger Class (1=First Class, 2=Second Class, 3=Third Class)
 - Survival - Survival (0=Passenger did not survive, 1=Passenger survived)
@@ -33,7 +33,7 @@ Survived ~ Pclass + Age + Fare + Title + FsizeC.
 - Embarked - Port of Embarkation (C=Cherbourg, Q=Queenstown, S=Southampton)
 
 -------------------------------------------------------------------------------------------------
-## Variable Analysis ##
+## Feature Analysis ##
 -------------------------------------------------------------------------------------------------
 ### Pclass ###
 High percentage of Third Class passengers perished, while First Class was the only category to
@@ -126,7 +126,7 @@ passengers who boarded in Southampton registered the highest number of deaths.
 
 -------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------
-## New Variables ##
+## Feature Creation ##
 -------------------------------------------------------------------------------------------------
 New variables were created for further exploratory analysis.  This is the list of additional
 variables:
