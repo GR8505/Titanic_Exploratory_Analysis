@@ -1,18 +1,20 @@
-# Titanic Exploratory Data Analysis (EDA)
+# Titanic Machine Learning
 -------------------------------------------------------------------------------------------------
 ## Executive Overview ##
 -------------------------------------------------------------------------------------------------
 The aim of this machine learning project was to develop a model to predict the number of people
-who survived the sinking of the Titanic.  At the end of my EDA and modelling process, I developed
-a logistic regression model that yielded an accuracy level of 79.9 percent.  In the future, I 
-will attempt to improve this accuracy level, probably with another classification method like
-KNN. 
+who survived the sinking of the Titanic.  At the end of my Exploratory Data Analysis (EDA) and 
+modelling, I successfully developed a logistic regression model that yielded an accuracy of 79.9 
+percent.  
 
-However, it was surprising to note that gender was not included in the final model. I believe that
-the creation of the variable title was more of an accurate predictor for survival than gender and
-thus the reason why gender was no longer significant to the model.
+In the future, I will attempt to improve this accuracy with another classification method like
+K-Nearest Neighbours (KNN) and various sampling methods. 
 
-My final model was Survived ~ Pclass + Age + Fare + Title + FsizeC.  
+However, it was surprising to note that **Gender** was not included in the final model. I believe that
+the creation of the variable **Title** turned out to be a more accurate predictor for survival rate.
+
+My final Logistic Regression model was:
+Survived ~ Pclass + Age + Fare + Title + FsizeC.  
 
 -------------------------------------------------------------------------------------------------
 
@@ -271,75 +273,6 @@ arrive at the most parsimonious model:
 
       *Survived~Pclass+Sex+Age+SibSp+Parch+Fare+Embarked+Title+FsizeC+Child+Mother
       
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot1.png)
-
-### AIC = 751.55
-### Removed cariable Sex, as it had the highest p-value which indicates low level of 
-### significance in the model.
-### Title, FsizeC and Pclass are all significant.
-
------------------------------------------------------------------------------------------------
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot2.png)
-
-### AIC = 755.45
-### p-value for Embarked is high.  Sought to remove this variable and test again.
-
------------------------------------------------------------------------------------------------
-      
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot3.png)
-
-### AIC reduced to 753.27
-### p-value for Fare reduced
-### Removed variable 'Mother' and retested model
-
------------------------------------------------------------------------------------------------
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot4.png)
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot5.png)
-
-### AIC reduced to 751.35, which is lower than the 751.55 in the first model
-### Removed variable Parch
-
-------------------------------------------------------------------------------------------------
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot6.png)
-
-### AIC further reduced to 749.44
-### It seemed that Pclass, Title and Fsize were the most significant variables in this model
-### Aimed to remove variable SibSp due to its high p-value and retested model
-
--------------------------------------------------------------------------------------------------
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot7.png)
-
-### AIC = 747.84
-### p-value for Fare continued to fall
-### At this point I chose to remove variable Child to see whether this will improve the model
-
--------------------------------------------------------------------------------------------------
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot8.png)
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot9.png)
-
-### AIC = 746.58 (continues to decline)
-### p-value for Age has dropped as well
-### Experimenting with removal of Fare and Age
-### Removed Fare first
-
--------------------------------------------------------------------------------------------------
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot10.png)
-
-### AIC increased to 748.04
-### Replaced Age with Fare and retested model
-
--------------------------------------------------------------------------------------------------
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/snapshot11.png)
-
-### AIC = 747.39 which was still higher than the AIC for log_rm7 model
-### Most variables in the seventh call were significant
 ### Proceeded to use logistic regression model => Survived ~ Pclass + Age + Fare + Title + FsizeC
 ### This model produced an accuracy level of 79.9 percent (Refer to code in the following link:
 ### https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Log_Regression.R)
