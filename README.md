@@ -35,8 +35,8 @@ Survived ~ Pclass + Age + Fare + Title + FsizeC.
 -------------------------------------------------------------------------------------------------
 ## Feature Analysis ##
 -------------------------------------------------------------------------------------------------
-### Pclass ###
-High percentage of Third Class passengers perished, while First Class was the only category to have a higher percentage of passengers that survived.
+### Pclass ###                                                                                                                                       | ### Sex ###
+High percentage of Third Class passengers perished, while First Class was the only category to have a higher percentage of passengers that survived. | It appears that males had a lower chance of survival compared to females.
              
 
 <img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg" width="400"> | <img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg" width="400">
