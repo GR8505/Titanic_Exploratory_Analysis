@@ -35,7 +35,7 @@ Survived ~ Pclass + Age + Fare + Title + FsizeC.
 -------------------------------------------------------------------------------------------------
 ## Feature Analysis ##
 -------------------------------------------------------------------------------------------------
-### Pclass ###                         |  ### Sex ###
+### Pclass                             |  Sex ###
 :-------------------------------------:|:----------------------------------------------------:
 High percentage of Third Class passengers perished, while First Class was the only category to have a higher percentage of passengers that survived. | It appears that males had a lower chance of survival compared to females.
              
