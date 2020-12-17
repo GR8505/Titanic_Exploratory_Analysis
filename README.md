@@ -41,6 +41,7 @@ have a higher percentage of survivors compared to non-survivors.
 
 -------------------------------------------------------------------------------------------------
 **Number of Survived by Pclass**
+
 <img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg" width="400">
 
 -------------------------------------------------------------------------------------------------
