@@ -18,7 +18,7 @@ Survived ~ Pclass + Age + Fare + Title + FsizeC.
 
 -------------------------------------------------------------------------------------------------
 
-## List of Features ##
+## List of Initial Features ##
 -------------------------------------------------------------------------------------------------
 - Pclass - Passenger Class (1=First Class, 2=Second Class, 3=Third Class)
 - Survival - Survival (0=Passenger did not survive, 1=Passenger survived)
@@ -41,8 +41,7 @@ have a higher percentage of survivors compared to non-survivors.
 
 -------------------------------------------------------------------------------------------------
 **Number of Survived by Pclass**
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg)
+<img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg" width="400">
 
 -------------------------------------------------------------------------------------------------
 
