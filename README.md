@@ -43,26 +43,11 @@ a higher percentage of passengers that survived.
 It appears that males had a lower chance of survival compared to females.
 
 
+
 |**Number of Survived by Pclass**                             | **Number of Survived by Gender**                                        |  
 |-------------------------------------------------------------|-------------------------------------------------------------------------|
 |<img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg" width="400"> | <img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg" width="400">|
 
-
-
--------------------------------------------------------------------------------------------------
-**Number of Survived by Pclass**
-
-<img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg" width="400">
-
--------------------------------------------------------------------------------------------------
-
-### Sex ###
-It appears that males had a lower chance of survival compared to females.
-
--------------------------------------------------------------------------------------------------
-**Number of Survived by Gender**
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg)
 
 -------------------------------------------------------------------------------------------------
 
@@ -73,13 +58,10 @@ younger age groups (somewhere between 1-10) had a slightly higher chance of surv
 The average age for the 'Survived' group was slightly lower than the mean age for the 'Not 
 Survived' group.  However, I must emphasize that it is a minor difference.
 
-Admittedly,this variable has missing data but I moved to address this problem for the 
-entire dataset at a later stage.
-
 -------------------------------------------------------------------------------------------------
 **Age Distribution: 'Survived' vs 'Not Survived'**
 
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg)
+src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg" width="400">
 
 -------------------------------------------------------------------------------------------------
 
@@ -100,6 +82,7 @@ for survival.
 -------------------------------------------------------------------------------------------------
 **SibSp and Parch Survival Analysis**
 
+src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg" width="400">
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg)
 
 The correlation between these two variables is < 0.5, sowe can infer that there is no 
