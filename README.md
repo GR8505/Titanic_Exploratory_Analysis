@@ -61,7 +61,7 @@ Survived' group.  However, I must emphasize that it is a minor difference.
 -------------------------------------------------------------------------------------------------
 **Age Distribution: 'Survived' vs 'Not Survived'**
 
-src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg" width="400">
+<src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg" width="400">
 
 -------------------------------------------------------------------------------------------------
 
@@ -82,7 +82,7 @@ for survival.
 -------------------------------------------------------------------------------------------------
 **SibSp and Parch Survival Analysis**
 
-src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg" width="400">
+<src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg" width="400">
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg)
 
 The correlation between these two variables is < 0.5, sowe can infer that there is no 
