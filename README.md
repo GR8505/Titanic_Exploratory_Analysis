@@ -80,26 +80,6 @@ for survival.
 
 -------------------------------------------------------------------------------------------------
 
-### SibSp and Parch ###
-From our initial analysis, it seems that being a 'loner' did not help one's chances of
-survival.  Nevertheless, I did observe that a large number of 'loners' also managed to
-survive the sinking of the Titanic.
-
-A high percentage of passengers with both no siblings and parents or children (SibSp = 0 and
-Parch = 0) did not survive. For pesrons with 1 sibling or spouse, there was a slightly higher
-chance of survival.  Furthermore, anyone with a Parch value of 1 or 2 had a higher probability
-for surviving.
-
-Nonetheless, I must emphasize that anybody with more than 4 siblings (SibSp > 4), perished and
-any passenger with 3 or more parent/child affilliations (Parch >= 3), had a lower probability 
-for survival.
-
--------------------------------------------------------------------------------------------------
-**SibSp and Parch Survival Analysis**
-
-<img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg" width="400">
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg)
 
 The correlation between these two variables is < 0.5, sowe can infer that there is no 
 significant relationship between SibSp and Parch.
