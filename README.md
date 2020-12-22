@@ -33,7 +33,7 @@ Survived ~ Pclass + Age + Fare + Title + FsizeC.
 - Embarked - Port of Embarkation (C=Cherbourg, Q=Queenstown, S=Southampton)
 
 -------------------------------------------------------------------------------------------------
-## [Exploratory Data Analysis(EDA)]() ##
+## [Exploratory Data Analysis(EDA)](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/EDA.R) ##
 -------------------------------------------------------------------------------------------------
 ### [Pclass](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg) ###                                                                        
 High percentage of Third Class passengers perished, while First Class was the only category to have 
