@@ -70,16 +70,13 @@ The correlation between these two variables is < 0.5, sowe can infer that there 
 significant relationship between SibSp and Parch.
 
 
-### [Fare](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot11.png) ###
+### Fare ###
 No clear insight into whether Fare is related to survival but the average Fare for those who
-survived is 119 percent higher (more than double) than the average Fare for non-survivors.
+[survived](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot12.png) is 119 percent higher (more than double) than the average Fare for [non-survivors](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot11.png).
 
 Surprisingly, there is no strong correlation between Fare and Pclass.  At -0.6, this is a 
 significant negative correlation but not a strong one.
 
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot12.png)
-
--------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------
 
 ### Embarked ###
