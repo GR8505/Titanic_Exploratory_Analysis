@@ -97,43 +97,11 @@ New variables were created for further exploratory analysis.  This is the list o
 variables:
 
 - [Title](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot14.jpeg) - (Master, Miss, [Mr](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot16.jpeg), Mrs and Special Title)
-- [Fsize]() - (Family size)
-- FsizeC - (Refers to family size category; there are three categories, large, small and loner)
-- Deck - (Deck Number)
-- AgeC - (Age category)
-- Child - (Whether passenger is a child or not)
-- Mother - (Whether passenger is a mother or not)
--------------------------------------------------------------------------------------------------
-
-
--------------------------------------------------------------------------------------------------
-## Fsize and FsizeC ##
-Fsize = SibSp + Parch + 1
-For FsizeC, Loners are passengers with Fsize = 1, Small represents passengers with Fsize 
-between 1 to 4 and Large are those with Fsize >= 5.
-
--------------------------------------------------------------------------------------------------
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot17.jpeg)
-
-------------------------------------------------------------------------------------------------
-Loners definitely had a lower probability of survival.  Passengers in small families had the 
-best chance of survival out of all these family size categories.
-
-------------------------------------------------------------------------------------------------
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot23.jpeg)
-
--------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------
-## Deck ##
-For this variable, unknown decks are labelled as 'U'. On closer analysis, I am not sure if
-this variable would add value to our predictive model, as there is a large percentage of
-passengers who are assigned to unknown decks.
-
--------------------------------------------------------------------------------------------------
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot.jpeg)
-
--------------------------------------------------------------------------------------------------
-## AgeC ##
+- [Fsize](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot17.jpeg) - (Family size)
+- [FsizeC](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot23.jpeg) - (Refers to family size category; there are three categories, large, small and loner). Loners are passengers with Fsize = 1, Small represents passengers with Fsize 
+between 1 to 4 and Large are those with Fsize >= 5
+- [Deck](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot.jpeg) - (Deck Number)
+- [AgeC](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot22.jpeg) - (Age category)
 Ages were broken down into the following categories:
 1) Category 0: Age<=11
 2) Category 1: 11<Age<=18
@@ -142,20 +110,9 @@ Ages were broken down into the following categories:
 5) Category 4: 35<Age<=45
 6) Category 5: 45<Age<=65
 7) Category 6: Age>65
+- [Child](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot24.jpeg) - (Whether passenger is a child or not)
+- [Mother](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot24.jpeg)- (Whether passenger is a mother or not)
 -------------------------------------------------------------------------------------------------
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot22.jpeg)
-
-This provides little insight. Although a high number of passengers perished in the age 
-categories 2 and 3, a high number of them also survived.  No clear pattern or relationship
-identified here.
-
--------------------------------------------------------------------------------------------------
-## Child and Mother ##
-These new variables show that being a child does have a major impact on survival. 
-
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot24.jpeg)
-
-Passengers who were mothers had a slightly better chance of survival.
 
 -------------------------------------------------------------------------------------------------
 ## Correlation ##
