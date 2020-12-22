@@ -96,7 +96,7 @@ passengers who boarded in Southampton registered the highest number of deaths.
 New variables were created for further exploratory analysis.  This is the list of additional
 variables:
 
-- [Title](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot14.jpeg) - (Master, Miss, Mr, Mrs and Special Title)
+- [Title](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot14.jpeg) - (Master, Miss, [Mr](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot16.jpeg), Mrs and Special Title)
 - [Fsize]() - (Family size)
 - FsizeC - (Refers to family size category; there are three categories, large, small and loner)
 - Deck - (Deck Number)
@@ -105,22 +105,7 @@ variables:
 - Mother - (Whether passenger is a mother or not)
 -------------------------------------------------------------------------------------------------
 
-### Title ###
-This new variable provides some meaningful insights.  We can infer that passengers with the 
-title 'Mr.' had a very low chance of survival.
 
--------------------------------------------------------------------------------------------------
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot14.jpeg)
-
--------------------------------------------------------------------------------------------------
-
-On the contrary, persons with the titles 'Miss', 'Mrs.' and 'Master' probably stood a better
-chance at surviving.
-
--------------------------------------------------------------------------------------------------
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot16.jpeg)
-
--------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------
 ## Fsize and FsizeC ##
 Fsize = SibSp + Parch + 1
