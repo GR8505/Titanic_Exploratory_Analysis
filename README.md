@@ -35,30 +35,21 @@ Survived ~ Pclass + Age + Fare + Title + FsizeC.
 -------------------------------------------------------------------------------------------------
 ## Feature Analysis ##
 -------------------------------------------------------------------------------------------------
-### [Pclass](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg) ###                                                                                                                           
+### [Pclass](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg) ###                                                                        
 High percentage of Third Class passengers perished, while First Class was the only category to have 
 a higher percentage of passengers that survived.
 
-### [Sex](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg) ###
+### [Sex](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg) ### 
 It appears that males had a lower chance of survival compared to females.
 
-------------------------------------------------------------------------------------------------
-
-|**Number of Survived by Pclass**                             | **Number of Survived by Gender**                                        |  
-|-------------------------------------------------------------|-------------------------------------------------------------------------|
-|<img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot03.jpeg" width="400"> | <img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg" width="400">|
-
-
--------------------------------------------------------------------------------------------------
-
-### Age ###
+### [Age](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg) ###
 The age distributions for both 'Survived' and 'Not Survived' are similar but it seems that
 younger age groups (somewhere between 1-10) had a slightly higher chance of survival.
 
 The average age for the 'Survived' group was slightly lower than the mean age for the 'Not 
 Survived' group.  However, I must emphasize that it is a minor difference.
 
-### SibSp and Parch ###
+### [SibSp and Parch](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg) ###
 From our initial analysis, it seems that being a 'loner' did not help one's chances of
 survival.  Nevertheless, I did observe that a large number of 'loners' also managed to
 survive the sinking of the Titanic.
