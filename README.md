@@ -181,8 +181,7 @@ arrive at the most parsimonious model:
       *Survived~Pclass+Sex+Age+SibSp+Parch+Fare+Embarked+Title+FsizeC+Child+Mother
       
 ### Proceeded to use logistic regression model => Survived ~ Pclass + Age + Fare + Title + FsizeC
-### This model produced an accuracy level of 79.9 percent (Refer to code in the following link:
-### https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Log_Regression.R)
+### This [model](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Log_Regression.R) produced an accuracy level of 79.9 percent. 
 
 --------------------------------------------------------------------------------------------------
 
