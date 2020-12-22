@@ -39,10 +39,12 @@ Survived ~ Pclass + Age + Fare + Title + FsizeC.
 High percentage of Third Class passengers perished, while First Class was the only category to have 
 a higher percentage of passengers that survived.
 
+-------------------------------------------------------------------------------------------------
 
 ### [Sex](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg) ### 
 It appears that males had a lower chance of survival compared to females.
 
+-------------------------------------------------------------------------------------------------
 
 ### [Age](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg) ###
 The age distributions for both 'Survived' and 'Not Survived' are similar but it seems that
@@ -51,6 +53,7 @@ younger age groups (somewhere between 1-10) had a slightly higher chance of surv
 The average age for the 'Survived' group was slightly lower than the mean age for the 'Not 
 Survived' group.  However, I must emphasize that it is a minor difference.
 
+------------------------------------------------------------------------------------------------
 
 ### [SibSp and Parch](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg) ###
 From our initial analysis, it seems that being a 'loner' did not help one's chances of
@@ -69,6 +72,7 @@ for survival.
 The correlation between these two variables is < 0.5, sowe can infer that there is no 
 significant relationship between SibSp and Parch.
 
+-------------------------------------------------------------------------------------------------
 
 ### Fare ###
 No clear insight into whether Fare is related to survival but the average Fare for those who
@@ -79,25 +83,21 @@ significant negative correlation but not a strong one.
 
 -------------------------------------------------------------------------------------------------
 
-### Embarked ###
+### [Embarked](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot13.jpeg) ###
 Cherbourg was the only port that had a higher proportion of 'Survived' compared to 'Not 
 Survived'.  Queenstown recorded a higher number of deaths compared to number of survived, while
 passengers who boarded in Southampton registered the highest number of deaths.
 
--------------------------------------------------------------------------------------------------
-**Survived by Embarked**
 
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot13.jpeg)
 
--------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------
 ## Feature Creation ##
 -------------------------------------------------------------------------------------------------
 New variables were created for further exploratory analysis.  This is the list of additional
 variables:
 
-- Title - (Master, Miss, Mr, Mrs and Special Title)
-- Fsize - (Family size)
+- [Title](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot14.jpeg) - (Master, Miss, Mr, Mrs and Special Title)
+- [Fsize]() - (Family size)
 - FsizeC - (Refers to family size category; there are three categories, large, small and loner)
 - Deck - (Deck Number)
 - AgeC - (Age category)
