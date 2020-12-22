@@ -39,8 +39,10 @@ Survived ~ Pclass + Age + Fare + Title + FsizeC.
 High percentage of Third Class passengers perished, while First Class was the only category to have 
 a higher percentage of passengers that survived.
 
+
 ### [Sex](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot04.jpeg) ### 
 It appears that males had a lower chance of survival compared to females.
+
 
 ### [Age](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg) ###
 The age distributions for both 'Survived' and 'Not Survived' are similar but it seems that
@@ -48,6 +50,7 @@ younger age groups (somewhere between 1-10) had a slightly higher chance of surv
 
 The average age for the 'Survived' group was slightly lower than the mean age for the 'Not 
 Survived' group.  However, I must emphasize that it is a minor difference.
+
 
 ### [SibSp and Parch](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg) ###
 From our initial analysis, it seems that being a 'loner' did not help one's chances of
@@ -63,32 +66,17 @@ Nonetheless, I must emphasize that anybody with more than 4 siblings (SibSp > 4)
 any passenger with 3 or more parent/child affilliations (Parch >= 3), had a lower probability 
 for survival.
 
--------------------------------------------------------------------------------------------------
-
-|**Age Distribution: 'Survived' vs 'Not Survived'**                  | **SibSp and Parch Survival Analysis**                                   |
-|--------------------------------------------------------------------|-------------------------------------------------------------------------|
-|<img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot05.jpeg" width="400">|<img src="https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot07.jpeg" width="400">|
-
--------------------------------------------------------------------------------------------------
-
-
 The correlation between these two variables is < 0.5, sowe can infer that there is no 
 significant relationship between SibSp and Parch.
 
--------------------------------------------------------------------------------------------------
 
-### Fare ###
+### [Fare](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot11.png) ###
 No clear insight into whether Fare is related to survival but the average Fare for those who
 survived is 119 percent higher (more than double) than the average Fare for non-survivors.
 
--------------------------------------------------------------------------------------------------
-![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot11.png)
-
--------------------------------------------------------------------------------------------------
 Surprisingly, there is no strong correlation between Fare and Pclass.  At -0.6, this is a 
 significant negative correlation but not a strong one.
 
--------------------------------------------------------------------------------------------------
 ![](https://github.com/GR8505/Titanic_Exploratory_Analysis/blob/master/Images/Rplot12.png)
 
 -------------------------------------------------------------------------------------------------
